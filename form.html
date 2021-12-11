@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diane Blake: Form</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+<img src="images/logo.jpg" alt="Logo" height="100" width="200" class="img-fluid logo">
+</header>
+		<nav>
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resume.html">My resumé</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="form.html">Form</a></li>
+			<li><a href="multimedia.html">Multimedia</a></li>
+			<li><a href="javascript.html">Javascript</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+		</ul>
+			
+		</nav>
+		<!--This is the main section-->
+	
+		<main>
+			<h2>HTML Form</h2>
+			<p>This is a form I made in HTML and styled with CSS.</p>
+			<form action="https://webdevstudents.com/portfolio/submit-form.php" method=post>
+
+					<h2>My form</h2>
+			<p>Submit your comments using this form. </p>
+			
+			<label for="first_name">*First Name</label> 
+			<input type="text" id="first_name" name="first_name" required>
+			
+			<label for="last_name">*Last Name</label> 
+			<input type="text" id="last_name" name="last_name" required>
+			
+			<label for="email">*Email</label> 
+			<input type="text" id="email" name="email" required>
+			
+			<label for="phone">Telephone</label> 
+			<input type="tel" id="phone" name="phone" not required>
+			
+			<label for="comments">*Your comments</label> 
+			<textarea id="comments" name="comments"></textarea>
+			
+			<input type="submit" id="mySubmit" value="Submit">
+			
+		</form>
+
+	</main>
+			
+		<footer>
+
+<div class="row icons">
+	<div class="col-sm-4">
+		<a href="https:/facebook.com">
+			<i class="fa fa-facebook-square" aria-hidden="true"></i>
+			<h4> Follow  me Facebook</h4>
+		</a>
+	</div>
+	<div class="col-sm-4">
+		<a href="https://linked.com">
+			<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+			<h4>Connect on Linked In</h4>
+		</a>
+	</div>
+	<div class="col-sm-4">
+		<a href="mailto:puppies@puppies.com">
+			<i class="fa fa-envelope" aria-hidden="true"></i>
+			<h4> Email Me</h4>
+		</a>
+	</div>
+</div>
+<small>&copy;Copyright Diane Blake<br>Portfolio is a website exercise on website design. <br>The images are royalty-free photos from pixabay.com.</small>
+
+
+</footer>>
+
+<!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
