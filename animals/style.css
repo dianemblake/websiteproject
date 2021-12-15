@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap');p{
+	font-family: 'Oswald', sans-serif;
+}
+
+/*fANCY TAGS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+h1{
+	font-family: 'IBM Plex Serif', serif;
+
+}
+
+h2{
+	font-family: 'IBM Plex Serif', serif;
+
+}
+
+body{
+	font-family: 'IBM Plex Serif', serif;
+}
+
+
+h2{
+	margin-bottom: 1px;
+	margin-top: 5px;
+	font-weight: bold;
+	color:blue;
+	background-color:white;
+}
+
+h3{
+	margin-top: 1px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+h1{
+	font-size: 4em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+img{
+	margin: 0 auto;
+	border: 5px solid #555;
+}
+
+.col-sm-4 h3{
+
+text-align: center;
+}
+
+blockquote{
+	margin: 30px 0;
+		text-align: center;
+
+}
+
+
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	background-color: eeeeee;
+	padding: 15px 0;
+	margin-top: 0;
+	border-top: purple px solid;
+	border-bottom: purple px solid;
+}
+
+nav li{
+	display: inline;
+	margin:  5px 10px;
+}
+
+footer{
+	color: white;
+	background-color: #25A192;
+	margin: 40px 0 0 0;
+	display: block;
+}
+
+footer a:link{
+	color: #ffffff;
+}
+
+.footer-bottom{
+	background-color: #2a897e;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+.icons.fa{
+	color: ffffff;
+}
+
+.footer1000{
+	padding: 40px 0;
+	color: ffffff;
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+.fa-camera{
+	font-size: 100px;
+	text-align: center;
+	display: block;
+	margin-left: 40px;
+	margin-top: 10px;
+	color: purple;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+input{
+	background-color: #eeeeee;
+	height: 20px;
+	border-radius: 5px;
+}
+input[type=submit]{
+	background-color: red;
+}
+
+nav a:active {
+	color: blue;
+}
+nav a:hover {
+	color: orange;
+	text-decoration: none;
+}
+nav a:visited {
+	color: purple;
+}
+nav a:link{
+	color: purple;
+}
+
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.home-hero{
+	background-image: url(images/hero.jpg);
+	height: 175px;
+	background-size: cover;
+	background-position: center;
+	padding:10px 10px 10px 30px;
+	border: 20px solid #555;
+}
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+	h1{
+		font-size: 4em;
+	}
+
+
+
+/* CSS for Tablets */
+@media only screen and (max-width:  1024px){
+
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width:  768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+.mobile{
+	display:none;
+}
+@media only screen and (max-width:  400px) {
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}

@@ -1,0 +1,196 @@
+body{
+	margin: 10px 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	margin: 010uto;
+	display: block;
+}
+
+.logo{
+	margin: 0 auto;
+	display:block;
+	bacgkround-color: #dddddd;
+}
+h2{
+	color:#660066;
+	background-color:white;
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+p{
+	font-size: 18px;
+}
+
+footer{
+	text-align: center;
+}
+input{
+	background-color: #eeeeee;
+	height: 20px;
+	border-radius: 5px;
+}
+input[type=submit]{
+	background-color: red;
+}
+
+/* Navigation Bar */
+
+nav{
+	background-color: #efefef;
+}
+
+nav li{
+	display: inline;
+	padding:  5px 10px;
+}
+
+nav ul{ 
+text-align: center;
+padding: 8px;
+}
+
+nav a:link{
+color:black;
+}
+nav a:visited {
+color:black;
+}
+nav a:hover  {
+color:lime;
+}
+nav a:active  {
+color:blue;
+}
+
+
+main{
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 10px;
+	background-color: white;
+	
+}
+
+hr{
+	max-width: 80%;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.picture{
+	float: left;
+	max-width: 40%;
+	height: auto;
+	display: block;
+}
+.about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+footer{
+	clear: both;
+	background-color: #116522;
+	color: white;
+	padding: 50px;
+	border-top: 5px solid black;
+}
+
+footer p{
+	text-align: center;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+	/*TABLE*/
+
+	table{
+		background-color: #eeeeee;
+		border-spacing: 0;
+		margin-bottom: 100px;
+	}
+	th{
+		background-color: #336666;
+		color: white;
+	}
+	td,th{
+		padding: 10px;
+		border: 2px solid #dddddd;
+			line-height: 1.5;
+	}
+
+	.resume h2, .resume h4{
+		text-align: center;
+	}
+	.resume h5{
+		font-size: 1em;
+	}
+	.resume h2{
+		font-size: 36px;
+	}
+	.resume h3{
+		font-size: 28px;
+	}
+
+
+
+	/*FORM*/
+	label{
+		float: left;
+		width: 8em;
+		padding-right: 1em;
+	}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+	border-radius: 5px;
+
+}
+#submit{
+	display: block;
+	background-color: mediumpurple;
+	height: 30px;
+}
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+	h1{
+		font-size: 4em;
+	}
+
+
+
+/* CSS for Tablets */
+@media only screen and (max-width:  1024px){
+
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width:  768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+.mobile{
+	display:none;
+}
+@media only screen and (max-width:  400px) {
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}
